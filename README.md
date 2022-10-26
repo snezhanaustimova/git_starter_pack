@@ -13,9 +13,9 @@
 
 Для дальнейшей работы с удаленным репозиторием указываем данные вашего аккаунта:
 
-git config —-local user.name "John Doe"
+git config --local user.name "John Doe"
 
-git config —-local user.email johndoe@example.com
+git config --local user.email johndoe@example.com
 
 1. Попробуй сделать изменение в файле binary_search.py
 2. git add binary_search.py 
