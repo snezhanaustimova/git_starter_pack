@@ -17,7 +17,7 @@ number_to_find = 22
 
 final = findValue(numbers, number_to_find, 0, len(numbers) - 1)
 
-if final == -1:
+if final == 0:
 	print("This item was not found in the list.")
 else:
 	print("The number " + str(number_to_find) + " was found at index position " + str(final) + ".")
